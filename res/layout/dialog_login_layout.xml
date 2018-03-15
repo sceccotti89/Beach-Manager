@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/dialog_login_layout_root"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="#DDDDDD" >
+
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+	    <TextView
+			android:id="@+id/network_address_text"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:textColor="#000000"
+			android:text="@string/alert_dialog_address"
+			android:layout_gravity="left"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+			android:id="@+id/network_address_edit"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:scrollHorizontally="true"
+			android:singleLine="true"
+			android:inputType="text"
+			android:gravity="fill_horizontal"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<TextView
+			android:id="@+id/username_text"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:textColor="#000000"
+			android:text="@string/alert_dialog_username"
+			android:layout_gravity="left"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+			android:id="@+id/username_edit"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:scrollHorizontally="true"
+			android:singleLine="true"
+			android:inputType="text"
+			android:gravity="fill_horizontal"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<TextView
+			android:id="@+id/password_text"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:textColor="#000000"
+			android:text="@string/alert_dialog_password"
+			android:gravity="left"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+			android:id="@+id/password_edit"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:scrollHorizontally="true"
+			android:singleLine="true"
+			android:gravity="fill_horizontal"
+			android:inputType="textPassword"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<CheckBox android:id="@+id/checkbox_remember"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#000000"
+			android:text="@string/remember"
+			android:layout_gravity="center" />
+
+	</LinearLayout>
+ 
+</ScrollView>

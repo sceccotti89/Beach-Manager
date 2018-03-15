@@ -1,0 +1,347 @@
+<resources>
+
+	<string name="title_activity_main">Beach Manager</string>
+
+	<string name="app_name">Beach Manager</string>
+
+	<!-- ACTIVITY -->
+
+	<string name="yes">Yes</string>
+
+	<!-- main -->
+
+		<string name="options">OPTIONS:</string>
+		<string name="add_place">Add Place</string>
+		<string name="delete_place">Delete Place</string>
+
+		<string name="options_multi">OPTIONS</string>
+		<string name="add_places">Add Places</string>
+		<string name="delete_places">Delete Places</string>
+
+		<string name="selected">SELECTED:</string>
+		<string name="add_booking">Add Booking</string>
+		<string name="view_bookings">View Bookings</string>
+		<string name="view_status">View Status Place</string>
+		<string name="modify_place_price">Modify Price</string>
+
+		<string name="tariff">TARIFF</string>
+		<string name="add_tariff">Add Tariff</string>
+		<string name="delete_tariff">Delete Tariff</string>
+
+		<string name="booking">BOOKING</string>
+		<string name="modify_booking">Modify Booking</string>
+		<string name="delete_booking">Delete Booking</string>
+
+		<string name="log">LOG</string>
+		<string name="delete_log">Delete Log</string>
+
+		<string name="no_bookings">There is no Bookings for this Place.</string>
+		<string name="list_bookings">LIST OF BOOKINGS</string>
+
+		<string name="error_selection">All the selected Places must be Free</string>
+		<string name="error_edit_selection">All the selected Places must be of the same Type (Full or Empty)</string>
+
+		<string name="no_tariffs">There is no Rates for this Place.</string>
+		<string name="list_tariffs">LIST OF TARIFFS</string>
+
+		<string name="date_booking_filter">Show only reservations of the selected period</string>
+		<string name="date_rate_filter">Show only Rates of the selected period</string>
+
+		<string name="close">Close</string>
+
+		<string name="rows">Rows</string>
+		<string name="set">Set</string>
+		<string name="number">Insert at least a digit.</string>
+		<string name="cancel">Cancel</string>
+		<string name="columns">Columns</string>
+
+		<string name="cabins_deckchair">CABINS AND DECKCHAIRS</string>
+		<string name="total_free_cabins">Total and Free Cabins</string>
+		<string name="price_cabin">Price Cabin</string>
+		<string name="total_free_deckchairs">Total and Free Deckchairs</string>
+		<string name="price_deckchair">Price Deckchair</string>
+		<string name="price_cabin_error">Insert a Value for Cabin\'s Price</string>
+		<string name="price_deckchair_error">Insert a Value for Deckchair\'s Price</string>
+
+		<string name="delete_booking_dialog">Do you really want to Delete the Booking?</string>
+		<string name="attention">ATTENTION</string>
+		<string name="delete_tariff_dialog">Do you really want to Delete the Rate?</string>
+		<string name="delete_log_dialog">Do you really want to Delete the Log?</string>
+		<string name="cancel_edit_mode">Do you really want to Discard any Changes?</string>
+		<string name="save_changes">Do you want to Save the Changes?</string>
+		<string name="save_changes_manually">
+		    Do you want to Save the Changes?\n
+		    Remember that the your Place Numeration is setted to Manual, but you can change it from:
+		</string>
+
+		<string name="close_app_dialog">Do you really want to Close the Application?</string>
+
+		<string name="connecting">Connecting to Server.\nPlease wait</string>
+		<string name="insert_address_username_password">The fields Address, Username and Password cannot be empty.</string>
+		<string name="close_connection">Do you really want to Close the Connection?</string>
+
+		<string name="synchronization">Synchronization with Server</string>
+
+		<string name="server_down">The Communication with the Server is down. Check your own Internet Connection.</string>
+		<string name="error_server">
+			An Error is happened in the Server.\nThe Communication will be Closed.\n
+			Until that the Connection will be not Restored all the Changes will be Disabled.
+		</string>
+
+		<string name="download_data">Downloading Data from Server</string>
+
+		<string name="added_place">Added Place</string>
+		<string name="added_place_notification">Added Place:</string>
+		<string name="added_place_upper">ADDED PLACE:</string>
+
+		<string name="modified_place">Modified Place</string>
+		<string name="modified_place_notification">Modified Place:</string>
+		<string name="modified_place_upper">MODIFIED PLACE:</string>
+
+		<string name="deleted_place">Deleted Place</string>
+		<string name="deleted_place_notification">Deleted Place:</string>
+		<string name="deleted_place_upper">DELETED PLACE:</string>
+
+		<string name="deleted_all_places_notification">Deleted all Places</string>
+		<string name="deleted_all_places_upper">DELETED ALL PLACES:</string>
+
+		<string name="added_booking">Added Booking</string>
+		<string name="added_booking_notification">Added Booking in Place:</string>
+		<string name="added_booking_upper">ADDED BOOKING IN PLACE:</string>
+
+		<string name="modified_booking">Modified Booking</string>
+		<string name="modified_booking_notification">Modified Booking in Place:</string>
+		<string name="modified_booking_upper">MODIFIED BOOKING IN PLACE:</string>
+	
+		<string name="deleted_booking">Deleted Booking</string>
+		<string name="deleted_booking_notification">Deleted Booking in Place:</string>
+		<string name="deleted_booking_upper">DELETED BOOKING IN PLACE:</string>
+
+		<string name="booking_modified_accepted">Your Reservation has been Modified with Success.</string>
+
+		<string name="tariff_accepted">Your Rate has been Accepted.</string>
+		<string name="tariff_modified_accepted">Your Rate has been Modified with Success.</string>
+
+		<string name="no_free_cabins">Your Reservation for Place X has been Rejected because there are not Enough Free Cabins.</string>
+		<string name="no_free_deckchairs">Your Reservation for Place X has been Rejected because there are not Enough Free Deckchairs.</string>
+		<string name="place_already_booked">Your Reservation for Place X has been Rejected because it was already Booked.</string>
+		<string name="tariff_refused">Your Rate has been Rejected because there is some Overlaps between Dates.</string>
+
+		<string name="no_more_rows">You have reach your Limit of Rows.</string>
+		<string name="no_more_columns">You have reach your Limit of Columns.</string>
+
+		<string name="added_tariff">Added Tariff</string>
+		<string name="added_tariff_upper">ADDED TARIFF</string>
+
+		<string name="modified_tariff">Modified Tariff</string>
+		<string name="modified_tariff_upper">MODIFIED TARIFF</string>
+
+		<string name="deleted_tariff">Deleted Tariff</string>
+		<string name="deleted_tariff_upper">DELETED TARIFF</string>
+
+		<string name="modified_data">Modified Beach Data</string>
+		<string name="modified_data_text">Modified Number of Cabins or Deckchairs</string>
+		<string name="modified_data_upper">MODIFIED BEACH DATA</string>
+
+	<!-- booking -->
+
+		<string name="new_booking">New Booking</string>
+
+		<string name="free">FREE</string>
+		<string name="occupied">OCCUPIED</string>
+
+		<string name="note_multiple_bookings">With Multiple Bookings only to the First Place will be added Cabins and Deckchairs.</string>
+
+		<string name="date_selected_wrong">The selected date cannot be earlier than today</string>
+
+		<string name="deleted_out_booking">This Booking has been Cancelled.</string>
+		<string name="deleted_out_place">The Place X has been Cancelled.</string>
+		<string name="deleted_out_places">All the Places have been Cancelled.</string>
+
+		<string name="booking_accepted">Your Reservation has been Accepted.</string>
+		<string name="booking_multi1_accepted">Your Reservation for place:</string>
+		<string name="booking_multi2_accepted">has been Accepted.</string>
+
+	<!-- rate -->
+
+		<string name="new_tariff">New Tariff</string>
+		<string name="modify_tariff">Modify Tariff</string>
+
+		<string name="daily_price">Daily Price</string>
+		<string name="weekly_price">Weekly Price</string>
+
+		<string name="daily_error">Insert a value for the Daily Price</string>
+		<string name="weekly_error">Insert a value for the Weekly Price</string>
+
+		<string name="deleted_out_rate">This Tariff has been Cancelled.</string>
+
+	<!-- help main -->
+
+		<string name="menu">Menu</string>
+
+		<string name="tariffa">To show the list of tariffs pressed the button:</string>
+		<string name="edit">
+			To edit the beach (number of rows/columns, add or remove places, change name/price of a place) pressed the button:
+		</string>
+		<string name="overflow">
+			The list of options that are not shown (select/deselect all, access the settings)
+			can be shown pressing the "overflow" button, the one indicated with: 
+		</string>
+
+		<string name="operations">Operations</string>
+
+		<string name="period">
+			The two on top areas containing dates, indicate the selected period.
+			Clicking over one of them, is possible to select a date different than the previous one.
+			At each change of date, the status of the places is updated (red if occupied, green if free).
+		</string>
+		<string name="single_multi_select">
+			Each place is selectable with a simple click over it (the background will have a different color).
+			Clicking over a place, and keeping the click, is possible to show the list of available operations over it.\n
+			If you have selected more places at the same time will be opened the list of common operations, 
+			or a warning in case of error selection.
+		</string>
+
+	<!-- help edit -->
+
+		<string name="save_edit">All changes made will be permanent only if the followed button is pressed:</string>
+		<string name="cancel_edit">To cancel any changes made, press the button:</string>
+
+		<string name="dimension">
+			To modify the dimension of the beach just click over one of the two areas on top.
+			Clicking over one of them will be possible to add, or remove, rows, or columns, to the beach.
+		</string>
+
+	<!-- ==================================================================================================== -->
+
+	<!-- LAYOUT -->
+
+		<!-- activity_main -->
+
+		<string name="connection">Connect to Server</string>
+		<string name="disconnection">Disconnect from Server</string>
+
+		<!-- booking_activity -->
+
+		<string name="save">Save</string>
+		<string name="name">Name</string>
+		<string name="surname">Surname</string>
+		<string name="phone">Phone</string>
+		<string name="date_from_to">Date of start and end of the period</string>
+		<string name="availability">Availability:</string>
+		<string name="cabin">Cabins</string>
+		<string name="deckchair">Deckchairs</string>
+		<string name="price">Price:</string>
+
+		<!-- dialog_login_layout -->
+
+		<string name="alert_dialog_address">Server Address</string>
+		<string name="alert_dialog_username">Username</string>
+		<string name="alert_dialog_password">Password</string>
+		<string name="remember">Remember Username</string>
+
+		<!-- dialog_check_layout -->
+
+		<string name="remember_note">Don\'t Show Again</string>
+
+		<!-- number_picker_layout -->
+
+		<string name="content">increased or decreased button</string>
+		<string name="zero">0</string>
+
+		<!-- dialog_status_layout -->
+
+		<string name="name_position">Name/Position</string>
+		<string name="no_selectable_name">
+			You can Change the Name only when Editing the Beach.\n
+			See Help section for further Informations.
+		</string>
+
+		<!-- preferences -->
+
+		<string name="beach_title">Beach Management</string>
+
+		<string name="key_grid">grid</string>
+		<string name="grid_summary">Displays the grid of seats of the beach.</string>
+		<string name="grid_title">Grid View</string>
+
+		<string name="choose_value">Choose Voice</string>
+		<string-array name="voices">
+			<item>Manual</item>
+			<item>From Left to Right\nFrom Top to Bottom</item>
+			<item>From Left to Right\nFrom Bottom to Top</item>
+			<item>From Right to Left\nFrom Top to Bottom</item>
+			<item>From Right to Left\nFrom Bottom to Top</item>
+		</string-array>
+		<string-array name="values">
+			<item>1</item>
+			<item>2</item>
+			<item>3</item>
+			<item>4</item>
+			<item>5</item>
+		</string-array>
+		<string name="key_choose">numeration</string>
+		<string name="numeration_summary">Mode Numbering of Seats of the Beach.</string>
+		<string name="numeration_title">Numbering Places</string>
+
+		<string name="general_title">General</string>
+		<string name="key_audio">audio</string>
+		<string name="audio_summary">Enables the device to sound in response to a notification.</string>
+		<string name="audio_title">Enable Audio Notifications</string>
+		<string name="key_vibration">vibration</string>
+		<string name="vibrate_summary">Enables the device to vibrate in response to a notification.</string>
+		<string name="vibrate_title">Enable Vibrate Notifications</string>
+
+	<!-- ==================================================================================================== -->
+
+	<!-- MENU -->
+
+		<string name="menu_overflow">Overflow</string>
+		<string name="menu_cabin_deckchair_management">Cabins and Deckchairs</string>
+		<string name="menu_logs">Logs</string>
+		<string name="menu_settings">Settings</string>
+		<string name="menu_help">Help</string>
+
+		<!-- activity_main -->
+
+		<string name="list_rates">List of Rates</string>
+		<string name="list_logs">List of Logs</string>
+		<string name="edit_beach">Edit Beach</string>
+
+		<!-- edit_menu -->
+
+		<string name="select_all">Select All</string>
+		<string name="deselect_all">Deselect All</string>
+
+	<!-- ==================================================================================================== -->
+
+	<!-- OTHER -->
+
+		<!-- booking adapter -->
+
+		<string name="from">From:</string>
+		<string name="to">To:</string>
+
+		<!-- rate adapter -->
+
+		<string name="daily">Daily:</string>
+		<string name="weekly">Weekly:</string>
+
+		<!-- log adapter -->
+
+		<string name="text">Event:</string>
+		<string name="date">Date:</string>
+
+		<!-- error message -->
+
+		<string name="account_dont_exist">This Account doesn\'t exists.</string>
+		<string name="account_already_used">This Account is currently in use.</string>
+		<string name="server_full">The Server is temporarily overloaded.\nPlease try again later.</string>
+		<string name="old_version">Old version of the application.\nPlease download the latest version.</string>
+		<string name="unable_to_connect">Connection with Server failed.</string>
+		<string name="network_off">Sorry but the login cannot be performed, because there is no active Network Devices.\n</string>
+		<string name="network_disconnect">You are not Connected to a Network.\nPlease, connect your Device to a network and try again.</string>
+
+	<!-- ==================================================================================================== -->
+
+</resources>

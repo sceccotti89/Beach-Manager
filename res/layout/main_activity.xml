@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/spiaggia"
+	android:id="@+id/main_layout" >
+
+    <!-- TODO non so se e' meglio un textButton o un imageButton -->
+    <!--<ImageButton
+		    android:id="@+id/b1"
+		    android:layout_width="0dip"
+			android:layout_weight="0.3"
+	        android:layout_height="wrap_content"
+		    android:layout_gravity="top|right"
+		    android:src="@drawable/ombrellone_rosso" />-->
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:orientation="horizontal"
+		android:id="@+id/linear_bar" >
+
+	    <EditText
+			android:id="@+id/from_edit"
+			android:layout_height="match_parent"
+			android:layout_width="0dip"
+			android:layout_weight="0.38"
+			android:layout_marginLeft="5dip"
+			android:scrollHorizontally="true"
+			android:layout_marginTop="2dip"
+			android:visibility="invisible"
+			android:inputType="none"
+			android:focusable="false"
+			android:singleLine="true"
+			android:gravity="center" />
+
+	    <EditText
+			android:id="@+id/to_edit"
+			android:layout_height="match_parent"
+			android:layout_width="0dip"
+			android:layout_weight="0.38"
+			android:layout_marginLeft="5dip"
+			android:scrollHorizontally="true"
+			android:layout_marginTop="2dip"
+			android:visibility="invisible"
+			android:inputType="none"
+			android:focusable="false"
+			android:singleLine="true"
+			android:gravity="center" />
+
+	    <EditText
+			android:id="@+id/rows_edit"
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_weight="0.38"
+			android:layout_marginLeft="5dip"
+			android:scrollHorizontally="true"
+			android:layout_marginTop="2dip"
+			android:visibility="gone"
+			android:inputType="none"
+			android:focusable="false"
+			android:singleLine="true"
+			android:gravity="center_horizontal"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <EditText
+			android:id="@+id/columns_edit"
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_weight="0.38"
+			android:layout_marginLeft="5dip"
+			android:scrollHorizontally="true"
+			android:layout_marginTop="2dip"
+			android:visibility="gone"
+			android:inputType="none"
+			android:focusable="false"
+			android:singleLine="true"
+			android:gravity="center_horizontal"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<Button
+			android:id="@+id/connectionButton"
+			android:layout_height="match_parent"
+			android:layout_width="0dip"
+			android:layout_weight="0.24"
+			android:layout_marginTop="2dip"
+			android:text="@string/connection" />
+
+		<!--<Button
+			android:id="@+id/disconnectionButton"
+			android:layout_width="0dip"
+			android:layout_weight="0.24"
+			android:layout_marginTop="2dip"
+			android:layout_height="match_parent"
+			android:visibility="gone"
+			android:text="@string/disconnection" />-->
+
+	</LinearLayout>
+
+	<!-- <HorizontalScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:id="@+id/scroll" >
+
+	    <ScrollView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" > -->
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:id="@+id/relative_grid" >
+
+			    <stefano.ceccotti.beachmanager.entities.Grid
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:id="@+id/grid" />
+
+				<TableLayout
+				    android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:stretchColumns="*"
+					android:id="@+id/table_layout" />
+
+			</RelativeLayout>
+
+		<!-- </ScrollView>
+
+	</HorizontalScrollView> -->
+
+</LinearLayout>

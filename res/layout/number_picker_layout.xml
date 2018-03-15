@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:id="@+id/number_picker_layout_root" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal" >
+
+		<ImageButton
+			android:id="@+id/increase"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:contentDescription="@string/content"
+			android:src="@android:drawable/arrow_up_float" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal" >
+
+	    <EditText
+			android:id="@+id/value_edit"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:text="@string/zero"
+			android:scrollHorizontally="true"
+			android:focusable="false"
+			android:inputType="number"
+			android:gravity="center_horizontal"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	</LinearLayout>
+
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal" >
+
+		<ImageButton
+			android:id="@+id/reduce"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:contentDescription="@string/content"
+			android:src="@android:drawable/arrow_down_float" />
+
+	</LinearLayout>
+
+</LinearLayout>

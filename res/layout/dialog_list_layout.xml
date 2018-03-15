@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/dialog_list_layout_root" >
+
+    <LinearLayout
+        android:id="@+id/header"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:background="#0033FF" >
+
+        <Button
+		    android:id="@+id/new_button"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.3" />
+
+        <CheckBox
+            android:id="@+id/checkbox_filter"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.7"
+			android:text="@string/date_booking_filter"
+			android:textColor="#FFFFFF"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+
+		<!-- <TextView
+			android:id="@+id/separator"
+			style="?android:listSeparatorTextViewStyle"
+			android:layout_width="match_parent"
+			android:layout_height="3dip"
+			android:background="#C0C0C0" />-->
+
+    </LinearLayout>
+
+	<ListView
+		android:id="@+id/listView"
+		android:layout_gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:cacheColorHint="#00000000" >
+	</ListView>
+
+</LinearLayout>
+
+<!-- CAMBIARE COLORE ALL'OGGETTO SELEZIONATO: android:listSelector="#660066FF" PERO' LI SELEZIONA TUTTI -->
+
+<!-- android:entries="@array/values" -->

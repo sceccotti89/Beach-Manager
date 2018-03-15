@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DDDDDD"
+    android:id="@+id/dialog_layout_root" >
+
+    <TextView
+		android:id="@+id/title_text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dip"
+		android:layout_marginRight="5dip"
+		android:gravity="center"
+		android:textColor="#000000"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

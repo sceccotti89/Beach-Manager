@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/help_main_scroll_layout" >
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:id="@+id/help_main_layout" >
+
+        <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="2dip"
+		    android:background="#000000"
+		    android:orientation="vertical" >
+
+            <TextView
+				android:id="@+id/menu"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="#FFFFFF"
+				android:text="@string/menu"
+				android:layout_marginTop="2dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:layout_marginBottom="2dip"
+				android:textAppearance="?android:attr/textAppearanceSmallInverse" />
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/tariffe"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#000000"
+			android:text="@string/tariffa"
+			android:layout_marginTop="5dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginBottom="5dip"
+			android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+		<ImageView
+			android:id="@+id/image_tariff"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:contentDescription="@id/image_tariff"
+			android:src="@android:drawable/ic_menu_sort_by_size" />
+
+		<TextView
+			android:id="@+id/edit"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#000000"
+			android:text="@string/edit"
+			android:layout_marginTop="5dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginBottom="5dip"
+			android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+		<ImageView
+			android:id="@+id/image_edit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:contentDescription="@id/image_edit"
+			android:src="@android:drawable/ic_menu_edit" />
+
+		<TextView
+			android:id="@+id/overflow"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#000000"
+			android:text="@string/overflow"
+			android:layout_marginTop="5dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginBottom="5dip"
+			android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+		<ImageView
+			android:id="@+id/image_overflow"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dip"
+			android:contentDescription="@id/image_overflow"
+			android:src="@drawable/abc_ic_menu_moreoverflow_normal_holo_light" />
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#000000"
+		    android:orientation="vertical" >
+
+            <TextView
+				android:id="@+id/operations"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="#FFFFFF"
+				android:text="@string/operations"
+				android:layout_marginTop="2dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:layout_marginBottom="2dip"
+				android:textAppearance="?android:attr/textAppearanceSmallInverse" />
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/periodo"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#000000"
+			android:text="@string/period"
+			android:layout_marginTop="5dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginBottom="5dip"
+			android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+		<TextView
+			android:id="@+id/single_multi_select"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#000000"
+			android:text="@string/single_multi_select"
+			android:layout_marginTop="5dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginBottom="5dip"
+			android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+	</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:id="@+id/packet_layout" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:orientation="horizontal"
+		android:background="#FF3300" >
+
+		<TextView
+			android:id="@+id/title_text"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"
+			android:layout_marginTop="5dip"
+			android:layout_marginBottom="5dip"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+	<TextView
+	    android:id="@+id/separator1"
+		style="?android:listSeparatorTextViewStyle"
+		android:layout_width="match_parent"
+		android:layout_height="3dip"
+		android:background="#FF3300"
+		android:layout_below="@id/header" />
+
+	<!-- <TextView
+	    android:id="@+id/separator2"
+		style="?android:listSeparatorTextViewStyle"
+		android:layout_width="match_parent"
+		android:layout_height="3dip"
+		android:layout_alignBottom="true"
+		android:background="#0066CC"
+		android:layout_below="@id/separator1" /> -->
+
+	<RelativeLayout
+	    android:id="@+id/footer"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+		android:background="#FF3300" >
+
+	    <TextView
+		    android:id="@+id/separator2"
+			style="?android:listSeparatorTextViewStyle"
+			android:layout_width="match_parent"
+			android:layout_height="3dip"
+			android:background="#FF3300" />
+
+	    <Button
+			android:id="@+id/cancelButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/separator2"
+			android:layout_alignParentRight="true"
+			android:layout_alignTop="@+id/okButton"
+        	android:layout_toRightOf="@+id/view"
+			android:text="@string/cancel"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<View
+			android:id="@+id/view"
+			android:layout_width="0dp"
+			android:layout_height="1dp"
+			android:layout_below="@id/separator2"
+			android:layout_centerHorizontal="true" />
+
+		<Button
+			android:id="@+id/okButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/separator2"
+			android:layout_alignParentLeft="true"
+			android:layout_toLeftOf="@id/view"
+			android:text="@string/save"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	</RelativeLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FFFFFF"
+		android:layout_above="@id/footer"
+		android:layout_below="@id/separator1" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+		    <TextView
+				android:id="@+id/daily_view"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="15dip"
+				android:text="@string/daily_price"
+				android:textColor="#000000"
+				android:gravity="left"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+		    <EditText
+				android:id="@+id/daily_edit"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:layout_marginLeft="15dip"
+				android:layout_marginRight="15dip"
+				android:scrollHorizontally="true"
+				android:inputType="numberDecimal"
+				android:singleLine="true"
+				android:gravity="fill_horizontal"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <TextView
+				android:id="@+id/weekly_view"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="15dip"
+				android:text="@string/weekly_price"
+				android:textColor="#000000"
+				android:gravity="left"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+		    <EditText
+				android:id="@+id/weekly_edit"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:layout_marginLeft="15dip"
+				android:layout_marginRight="15dip"
+				android:scrollHorizontally="true"
+				android:inputType="numberDecimal"
+				android:singleLine="true"
+				android:gravity="fill_horizontal"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:id="@+id/date_text"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="5dip"
+				android:layout_marginLeft="15dip"
+				android:layout_marginRight="15dip"
+				android:text="@string/date_from_to"
+				android:textColor="#000000"
+				android:gravity="left"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <LinearLayout
+			    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginLeft="15dip"
+				android:layout_marginRight="15dip" >
+
+				<EditText
+					android:id="@+id/date_from_edit"
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.5"
+					android:focusable="false"
+					android:scrollHorizontally="true"
+					android:inputType="date"
+					android:singleLine="true"
+					android:gravity="fill_horizontal"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+				<EditText
+					android:id="@+id/date_to_edit"
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.5"
+					android:focusable="false"
+					android:scrollHorizontally="true"
+					android:inputType="date"
+					android:singleLine="true"
+					android:gravity="fill_horizontal"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			</LinearLayout>
+
+		    <LinearLayout
+			    android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginLeft="15dip"
+				android:layout_marginRight="15dip" >
+
+			    <TextView
+					android:id="@+id/status_text"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="@string/availability"
+					android:textColor="#000000"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			    <TextView
+					android:id="@+id/status_value_text"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:layout_marginLeft="7dip"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		    </LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</RelativeLayout>

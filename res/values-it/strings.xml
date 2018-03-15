@@ -1,0 +1,346 @@
+<resources>
+
+    <string name="title_activity_main">Beach Manager</string>
+
+	<string name="app_name">Beach Manager</string>
+
+    <!-- ACTIVITY -->
+
+	<string name="yes">Si</string>
+
+	<!-- main -->
+
+		<string name="options">OPZIONI:</string>
+		<string name="add_place">Aggiungi Posto</string>
+		<string name="delete_place">Cancella Posto</string>
+
+		<string name="options_multi">OPZIONI</string>
+		<string name="add_places">Aggiungi Posti</string>
+		<string name="delete_places">Cancella Posti</string>
+
+		<string name="selected">SELEZIONATO:</string>
+		<string name="add_booking">Aggiungi Prenotazione</string>
+		<string name="view_bookings">Visualizza Prenotazioni</string>
+		<string name="view_status">Visualizza Dettagli Posto</string>
+		<string name="modify_place_price">Modifica Prezzo</string>
+
+		<string name="tariff">TARIFFA</string>
+		<string name="add_tariff">Aggiungi Tariffa</string>
+		<string name="delete_tariff">Cancella Tariffa</string>
+
+		<string name="booking">PRENOTAZIONE</string>
+		<string name="modify_booking">Modifica Prenotazione</string>
+		<string name="delete_booking">Cancella Prenotazione</string>
+
+		<string name="log">EVENTO</string>
+		<string name="delete_log">Cancella Evento</string>
+
+		<string name="no_bookings">Non ci sono Prenotazioni per questo Ombrellone.</string>
+		<string name="list_bookings">LISTA PRENOTAZIONI</string>
+
+		<string name="error_selection">Tutti gli Ombrelloni selezionati devono essere Liberi</string>
+		<string name="error_edit_selection">Selezionare Ombrelloni dello stesso Tipo (Vuoti o Pieni)</string>
+
+		<string name="no_tariffs">Non ci sono tariffe per questo ombrellone.</string>
+		<string name="list_tariffs">LISTA TARIFFE</string>
+
+		<string name="date_booking_filter">Mostra solo Prenotazioni del periodo selezionato</string>
+		<string name="date_rate_filter">Mostra solo Tariffe del periodo selezionato</string>
+
+		<string name="close">Chiudi</string>
+
+		<string name="rows">Righe</string>
+		<string name="set">Assegna</string>
+		<string name="number">Inserire almeno una cifra.</string>
+		<string name="cancel">Cancella</string>
+		<string name="columns">Colonne</string>
+
+		<string name="cabins_deckchair">CABINE E SDRAIE</string>
+		<string name="total_free_cabins">Cabine Totali e Libere</string>
+		<string name="price_cabin">Prezzo Cabina</string>
+		<string name="total_free_deckchairs">Sdraie Totali e Libere</string>
+		<string name="price_deckchair">Prezzo Sdraia</string>
+		<string name="price_cabin_error">Inserisci un valore per il Prezzo della Cabina</string>
+		<string name="price_deckchair_error">Inserisci un valore per il Prezzo della Sdraia</string>
+
+		<string name="delete_booking_dialog">Cancellare Definitivamente la Prenotazione?</string>
+		<string name="attention">ATTENZIONE</string>
+		<string name="delete_tariff_dialog">Cancellare la tariffa?</string>
+		<string name="delete_log_dialog">Cancellare l\'Evento?</string>
+		<string name="cancel_edit_mode">Sicuro di voler Cancellare le Modifiche?</string>
+		<string name="save_changes">Salvare le Modifiche Apportate?</string>
+		<string name="save_changes_manually">
+		    Salvare le Modifiche Apportate?\n
+		    Ricorda che la tua Numerazione dei Posti è Manuale, ma puoi Cambiarla da:
+		</string>
+
+		<string name="close_app_dialog">Vuoi davvero chiudere l\'Applicazione?</string>
+
+		<string name="connecting">Connessione col Server.\nAttendere un momento</string>
+		<string name="insert_address_username_password">I campi Indirizzo, Username e Password devono essere riempiti.</string>
+		<string name="close_connection">Vuoi davvero chiudere la Connessione?</string>
+
+		<string name="synchronization">Sincronizzazione con il Server</string>
+
+		<string name="server_down">La comunicazione col Server è stata interrotta. Controllare la propria connessione internet.</string>
+		<string name="error_server">
+			Si e\' verificato un Errore nel Server.\nVerra\' chiusa la Comunicazione.
+			Finche\' la Comunicazione non verra\' Ripristinata tutte le Modifiche saranno Disattivate.
+		</string>
+
+		<string name="download_data">Sto scaricando i dati dal Server</string>
+
+		<string name="added_place">Aggiunto Posto</string>
+		<string name="added_place_notification">Aggiunto il Posto:</string>
+		<string name="added_place_upper">AGGIUNTO POSTO:</string>
+
+		<string name="modified_place">Modificato Posto</string>
+		<string name="modified_place_notification">Modificato Posto:</string>
+		<string name="modified_place_upper">MODIFICATO POSTO:</string>
+
+		<string name="deleted_place">Cancellato Posto</string>
+		<string name="deleted_place_notification">Cancellato il Posto:</string>
+		<string name="deleted_place_upper">CANCELLATO POSTO:</string>
+
+		<string name="deleted_all_places_notification">Cancellati tutti i Posti</string>
+		<string name="deleted_all_places_upper">CANCELLATI TUTTI I POSTO:</string>
+
+		<string name="added_booking">Aggiunta Prenotazione</string>
+		<string name="added_booking_notification">Aggiunta la Prenotazione al posto:</string>
+		<string name="added_booking_upper">AGGIUNTA PRENOTAZIONE A:</string>
+
+		<string name="modified_booking">Modificata Prenotazione</string>
+		<string name="modified_booking_notification">Modificata la Prenotazione al posto:</string>
+		<string name="modified_booking_upper">MODIFICATA PRENOTAZIONE A:</string>
+
+		<string name="deleted_booking">Cancellata Prenotazione</string>
+		<string name="deleted_booking_notification">Cancellato la Prenotazione al posto:</string>
+		<string name="deleted_booking_upper">CANCELLATA PRENOTAZIONE A:</string>
+
+		<string name="booking_modified_accepted">La Prenotazione e\' stata Modificata con Successo.</string>
+
+		<string name="tariff_accepted">La Tariffa e\' stata Accettata.</string>
+		<string name="tariff_modified_accepted">La Tariffa e\' stata Modificata con Successo.</string>
+
+		<string name="no_free_cabins">La Prenotazione per il posto X è stata Rifiutata perché non ci sono Sufficienti Cabine Libere.</string>
+		<string name="no_free_deckchairs">La Prenotazione per il posto X è stata Rifiutata perché non ci sono Sufficienti Sdraie Libere.</string>
+		<string name="place_already_booked">La Prenotazione per il posto X è stata Rifiutata perché è già stato Prenotato.</string>
+		<string name="tariff_refused">La Tariffa è stata Rifiutata perché vi sono alcune Collisioni tra le Date.</string>
+
+		<string name="no_more_rows">Hai raggiunto il Limite di Righe.</string>
+		<string name="no_more_columns">Hai raggiunto il Limite di Colonne.</string>
+
+		<string name="added_tariff">Aggiunta Tariffa</string>
+		<string name="added_tariff_upper">AGGIUNTA TARIFFA</string>
+
+		<string name="modified_tariff">Modificata Tariffa</string>
+		<string name="modified_tariff_upper">MODIFICATA TARIFFA</string>
+
+		<string name="deleted_tariff">Cancellata Tariffa</string>
+		<string name="deleted_tariff_upper">CANCELLATA TARIFFA</string>
+
+		<string name="modified_data">Modificati Dati della Spiaggia</string>
+		<string name="modified_data_text">Modificato il Numero di Cabine o Sdraie</string>
+		<string name="modified_data_upper">MODIFICATI DATI DELLA SPIAGGIA</string>
+
+	<!-- booking -->
+
+		<string name="new_booking">Nuova Prenotazione</string>
+
+		<string name="free">LIBERO</string>
+		<string name="occupied">OCCUPATO</string>
+
+		<string name="note_multiple_bookings">Con Prenotazioni Multiple soltanto al Primo Posto verranno assegnate Cabine e Sdraie.</string>
+
+		<string name="date_selected_wrong">La data selezionata non puo\' essere antecedente a quella odierna</string>
+
+		<string name="deleted_out_booking">Questa Prenotazione e\' stata Cancellata.</string>
+		<string name="deleted_out_place">Il Posto X e\' stato Cancellato.</string>
+		<string name="deleted_out_places">Tutti i Posti sono stati Cancellati.</string>
+
+		<string name="booking_accepted">La Prenotazione e\' stata Accettata.</string>
+		<string name="booking_multi_accepted">La Prenotazione e\' stata Accettata.</string>
+		<string name="booking_multi1_accepted">La Prenotazione per il Posto:</string>
+		<string name="booking_multi2_accepted">e\' stata Accettata.</string>
+
+	<!-- rate -->
+
+		<string name="new_tariff">Nuova Tariffa</string>
+		<string name="modify_tariff">Modifica Tariffa</string>
+
+		<string name="daily_price">Prezzo Giornaliero</string>
+		<string name="weekly_price">Prezzo Settimanale</string>
+
+		<string name="daily_error">Inserisci un valore per il Prezzo Giornaliero</string>
+		<string name="weekly_error">Inserisci un valore per il Prezzo Settimanale</string>
+
+		<string name="deleted_out_rate">Questa Tariffa e\' stata Cancellata.</string>
+
+	<!-- help main -->
+
+		<string name="menu">Menu</string>
+
+		<string name="tariffa">Per visualizzare la lista delle tariffe premere il tasto:</string>
+		<string name="edit">
+			Per modificare la spiaggia (numero di righe/colonne, aggiungere o togliere ombrelloni, modificare nome/prezzo) premere il tasto:
+		</string>
+		<string name="overflow">
+			La lista delle opzioni non visualizzate (selezionare/deselezionare tutto, accedere alle impostazioni)
+			sono visualizzabili premendo il bottone "overflow", quello cioe\' indicato con il simbolo:
+		</string>
+
+		<string name="operations">Operazioni</string>
+
+		<string name="period">
+			Le due aree in alto contenenti le date indicano il periodo selezionato.
+			Cliccando sopra una delle due aree e\' possibile selezionare una data diversa dalla precedente.
+			Ad ogni modifica di una delle due date viene aggiornato lo stato degli ombrelloni (rosso se occupato, verde se libero).
+		</string>
+		<string name="single_multi_select">
+			Ciascun ombrellone e\' selezionabile eseguendo un semplice click sopra di esso (lo sfondo avra\' un colore diverso).
+			Cliccando sopra un\'ombrellone e tenendo premuto, e\' possibile visualizzare la lista delle operazioni eseguili su di esso.\n
+			Se sono stati selezionati piu\' ombrelloni contemporaneamente verra\' aperta la lista delle operazioni comuni, 
+			oppure un\'avvertimento nel caso di un errore nella selezione.
+		</string>
+
+	<!-- help edit -->
+
+		<string name="save_edit">Tutte le modifiche effettuate non saranno permanenti fino a che non verra\' premuto il tasto:</string>
+		<string name="cancel_edit">Per annullare qualsiasi modifica effettuata premere il tasto:</string>
+
+		<string name="dimension">
+			Per modificare la dimensione della spiaggia cliccare sopra una delle due aree in alto.\n
+			Cliccando sopra una di esse sara\' possibile aggiungere, o togliere, righe, o colonne, alla spiaggia.
+		</string>
+
+	<!-- ==================================================================================================== -->
+
+	<!-- LAYOUT -->
+
+		<!-- activity_main -->
+
+		<string name="connection">Connettiti al Server</string>
+    	<string name="disconnection">Disconnettiti dal Server</string>
+
+		<!-- booking_activity -->
+
+		<string name="save">Salva</string>
+		<string name="name">Nome</string>
+		<string name="surname">Cognome</string>
+		<string name="phone">Telefono</string>
+		<string name="date_from_to">Data di inizio e fine periodo</string>
+		<string name="availability">Disponibilita\':</string>
+		<string name="cabin">Cabine</string>
+		<string name="deckchair">Sdraie</string>
+		<string name="price">Prezzo:</string>
+
+		<!-- dialog_login_layout -->
+
+		<string name="alert_dialog_address">Indirizzo del Server</string>
+	    <string name="alert_dialog_username">Username</string>
+	    <string name="alert_dialog_password">Password</string>
+	    <string name="remember">Ricorda Username</string>
+
+		<!-- dialog_check_layout -->
+
+		<string name="remember_note">Non Visualizzare Più</string>
+
+		<!-- number_picker_layout -->
+
+		<string name="content">increased or decreased button</string>
+		<string name="zero">0</string>
+
+		<!-- dialog_status_layout -->
+
+		<string name="name_position">Nome/Posizione</string>
+		<string name="no_selectable_name">
+			E\' possibile Cambiare il Nome solo durante la Modifica della Spiaggia.\n
+			Controlla la sezione Aiuto per maggiori Informazioni.
+		</string>
+
+		<!-- preferences -->
+
+		<string name="beach_title">Gestione spiaggia</string>
+
+		<string name="key_grid">grid</string>
+		<string name="grid_summary">Visualizza la griglia dei posti della spiaggia.</string>
+		<string name="grid_title">Visualizza Griglia</string>
+
+		<string name="choose_value">Scegli Voce</string>
+		<string-array name="voices">
+			<item>Manuale</item>
+			<item>Da Sinistra a Destra\nDall\'Alto al Basso</item>
+			<item>Da Sinistra a Destra\nDal Basso all\'Alto</item>
+			<item>Da Destra a Sinistra\nDall\'Alto al Basso</item>
+			<item>Da Destra a Sinistra\nDal Basso all\'Alto</item>
+		</string-array>
+		<string name="key_choose">numeration</string>
+		<string name="numeration_summary">Modalità di numerazione dei posti della spiaggia.</string>
+		<string name="numeration_title">Numerazione Posti</string>
+
+		<string name="general_title">Generale</string>
+		<string name="key_audio">audio</string>
+		<string name="audio_summary">Abilita il suono del dispositivo in seguito a una notifica.</string>
+		<string name="audio_title">Attiva Audio Notifiche</string>
+		<string name="key_vibration">vibration</string>
+		<string name="vibrate_summary">Abilita la vibrazione del dispositivo in seguito a una notifica.</string>
+		<string name="vibrate_title">Attiva Vibrazioni Notifiche</string>
+
+	<!-- ==================================================================================================== -->
+
+	<!-- MENU -->
+
+		<string name="menu_overflow">Overflow</string>
+		<string name="menu_cabin_deckchair_management">Cabine e Sdraie</string>
+		<string name="menu_logs">Diario Eventi</string>
+		<string name="menu_settings">Impostazioni</string>
+		<string name="menu_help">Aiuto</string>
+
+		<!-- activity_main -->
+
+		<string name="list_rates">Lista Tariffe</string>
+		<string name="list_logs">Lista Eventi</string>
+		<string name="edit_beach">Modifica spiaggia</string>
+
+		<!-- edit_menu -->
+
+		<string name="select_all">Seleziona Tutti</string>
+		<string name="deselect_all">Deseleziona Tutti</string>
+
+	<!-- ==================================================================================================== -->
+
+	<!-- OTHER -->
+
+		<!-- booking adapter -->
+
+		<string name="from">Da:</string>
+		<string name="to">A:</string>
+
+		<!-- rate adapter -->
+
+		<string name="daily">Giornaliero:</string>
+		<string name="weekly">Settimanale:</string>
+
+		<!-- log adapter -->
+
+		<string name="text">Evento:</string>
+		<string name="date">Data:</string>
+
+		<!-- error message -->
+
+		<string name="account_dont_exist">L\'Account inserito è inesistente.</string>
+		<string name="account_already_used">L\'Account inserito è attualmente in uso.</string>
+		<string name="server_full">Il Server è momentaneamente in sovraccarico.\nRitentare più tardi.</string>
+		<string name="old_version">Versione vecchia dell\'applicazione.\nSi prega di scaricare l\'ultima versione.</string>
+		<string name="unable_to_connect">Connessione col Server fallita.</string>
+		<string name="network_off">
+			Siamo spiacenti ma non e\' possibile effettuare il login perche\' non ci sono Dispositivi di rete attivi.
+		</string>
+		<string name="network_disconnect">
+			Non sei connesso a una Rete.\n
+			Si prega di Connettere il proprio Dispositivo a una Rete e riprovare.
+		</string>
+
+	<!-- ==================================================================================================== -->
+
+</resources>

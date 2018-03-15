@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<PreferenceCategory android:title="@string/beach_title" >
+
+		<ListPreference
+		    android:defaultValue="1"
+			android:dialogTitle="@string/choose_value"
+			android:entries="@array/voices"
+			android:entryValues="@array/values"
+			android:key="@string/key_choose"
+			android:summary="@string/numeration_summary"
+			android:title="@string/numeration_title" />
+
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="@string/key_grid"
+			android:summary="@string/grid_summary"
+			android:title="@string/grid_title" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/general_title" >
+
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="@string/key_audio"
+			android:summary="@string/audio_summary"
+			android:title="@string/audio_title" />
+
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="@string/key_vibration"
+			android:summary="@string/vibrate_summary"
+			android:title="@string/vibrate_title" />
+
+		<!-- TODO forse quando verra' implementata la chat
+			<EditTextPreference
+			android:defaultValue=""
+			android:key=""
+			android:summary=""
+			android:title="" />-->
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/dialog_status_layout_root" >
+
+	<TextView
+		android:id="@+id/name_text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dip"
+		android:layout_marginRight="15dip"
+		android:layout_marginBottom="5dip"
+		android:textColor="#FFFFFF"
+		android:text="@string/name_position"
+		android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+	<EditText
+		android:id="@+id/name_place_edit"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="15dip"
+		android:layout_marginRight="15dip"
+		android:layout_marginBottom="5dip"
+		android:scrollHorizontally="true"
+		android:inputType="textPersonName"
+		android:singleLine="true"
+		android:gravity="fill_horizontal"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+		android:id="@+id/price_text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dip"
+		android:layout_marginRight="15dip"
+		android:layout_marginBottom="5dip"
+		android:textColor="#FFFFFF"
+		android:text="@string/price"
+		android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+	<EditText
+		android:id="@+id/price_place_edit"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="15dip"
+		android:layout_marginRight="15dip"
+		android:layout_marginBottom="5dip"
+		android:scrollHorizontally="true"
+		android:inputType="numberDecimal"
+		android:singleLine="true"
+		android:gravity="fill_horizontal"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

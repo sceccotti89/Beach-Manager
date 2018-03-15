@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:beach_manager="http://schemas.android.com/apk/res-auto" >
+
+	<item android:id="@+id/menu_rates"
+		android:title="@string/list_rates"
+		beach_manager:showAsAction="always"
+		android:icon="@android:drawable/ic_menu_sort_by_size" />
+
+	<item android:id="@+id/menu_edit"
+		android:title="@string/edit_beach"
+		beach_manager:showAsAction="always"
+		android:icon="@android:drawable/ic_menu_edit" />
+
+	<item android:id="@+id/menu_save"
+		android:title="@string/save"
+		beach_manager:showAsAction="always"
+		android:icon="@android:drawable/ic_menu_save" />
+
+	<item android:id="@+id/menu_cancel"
+		android:title="@string/cancel"
+		beach_manager:showAsAction="always"
+		android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+
+	<item android:id="@+id/menu_logs"
+		android:title="@string/menu_logs"
+		beach_manager:showAsAction="ifRoom"
+		android:icon="@android:drawable/ic_menu_agenda" />
+
+	<item android:id="@+id/menu_settings"
+		android:title="@string/menu_settings"
+		beach_manager:showAsAction="ifRoom"
+		android:icon="@android:drawable/ic_menu_preferences" />
+
+	<item android:id="@+id/menu_overflow"
+		android:title="@string/menu_overflow"
+		beach_manager:showAsAction="always"
+		android:icon="@drawable/abc_ic_menu_moreoverflow_normal_holo_light" />
+
+</menu>
