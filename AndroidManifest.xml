@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="stefano.ceccotti.beachmanager"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:installLocation="preferExternal" >
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <!-- android:theme="@style/AppTheme" > -->
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:allowBackup="true" >
+        <activity
+            android:name="stefano.ceccotti.beachmanager.MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTop"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BookingActivity" />
+        <activity android:name=".PrefActivity" />
+        <activity android:name=".RateActivity" />
+        <activity android:name=".OptionsActivity" />
+        <activity android:name=".HelpActivity" />
+    </application>
+
+</manifest>
+<!-- TODO finiti i test selezionare questa orientazione: android:screenOrientation="landscape" sotto launchMode -->
